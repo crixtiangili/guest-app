@@ -43,7 +43,7 @@ table {
 
 require "database/connect.php";
 
-$event_query = "SELECT * FROM `event` WHERE `id` BETWEEN 1 AND 10";
+$event_query = "SELECT * FROM `event`";
 
 $event_result = mysqli_query($conn, $event_query);
 
